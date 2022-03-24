@@ -1,0 +1,45 @@
+nav {
+  background-color: beige;
+}
+.card {
+  width: 300px;
+  height: 384px;
+
+  box-shadow: 0px 42px 34px rgba(247, 248, 250, 0.25);
+
+  border: 0;
+  border-radius: 10px;
+  margin: 50px;
+
+  padding: 15px 50px;
+  background-color: beige;
+}
+.card-bg {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+}
+
+.card-special {
+  color: #fff;
+
+  background-image: linear-gradient(to right, #3f87f5, rgb(10, 142, 250));
+  border: 0;
+  border-radius: 10px;
+}
+.card-special:hover {
+  transform: scale(1.1);
+}
+.card-btn-warning {
+  color: rgb(7, 109, 7);
+  width: 207px;
+  height: 45px;
+  background-color: #ee8fd6;
+  border-radius: 24px;
+  margin-left: 20px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #0b0d17;
+}

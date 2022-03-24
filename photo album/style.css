@@ -1,0 +1,38 @@
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-frame{
+     height: 200px;
+     width: 200px;
+     border: 2px solid goldenrod;
+     border-radius: 5px;
+     position: relative;
+     margin: 10px;
+     overflow:hidden ;
+}
+.photo img{
+    width: 100%;
+    border-radius: 5px;
+}
+.photo-details{
+    position: absolute;
+    display: none;
+    width: 300px;
+    top: 0;
+}
+.photo-details h3{
+    background-color: hotpink;
+    text-align: justify;
+}
+.photo-details p{
+    color:powderblue;
+}
+.photo-frame:hover .photo-details{
+    display: block;
+    background-color: rgba(238, 209, 136, 0.4);
+}
+.photo-frame:hover .photo{
+    transform:scale(1.5) ;
+    transition: transform 2s ease-in-out;
+}

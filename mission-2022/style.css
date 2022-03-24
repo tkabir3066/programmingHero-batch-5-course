@@ -1,0 +1,186 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(251, 251, 251);
+}
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.focus {
+  line-height: 30px;
+  border-left: 5px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+#orange {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-top: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 10%;
+}
+.half-width .person-img {
+  height: 70%;
+  width: 60%;
+}
+.half-width img {
+  width: 60%;
+  height: 60%;
+}
+.link-button {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: crimson;
+  color: rgb(246, 243, 243);
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+.mission-22 h1 {
+  text-align: center;
+}
+.illustrator {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5%;
+}
+.illustrator-1 {
+  width: 20%;
+
+  margin-left: 5%;
+  padding-right: 10%;
+  text-align: justify;
+}
+.illustrator-1 img {
+  width: 50%;
+}
+.container-1 {
+  background-color: rgb(206, 200, 200);
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.container-2 {
+  background-color: honeydew;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.container-3 {
+  background-color: khaki;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.Documentation-section {
+  display: flex;
+  align-content: space-around;
+  margin: 50px 50px;
+}
+.Documentation-section img {
+  width: 70%;
+  height: 80%;
+  margin-top: 5%;
+  margin-left: -10%;
+}
+section .document-child {
+  margin-right: 5%;
+}
+
+section .banner-1 {
+  background-image: url(Images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 30%;
+}
+.half-width .banner-1 {
+  width: 80%;
+}
+.project-section {
+  margin-bottom: 70px;
+  margin-top: 100px;
+  display: flex;
+  margin-right: 100px;
+}
+.project-section .project-child-2 {
+  width: 100%;
+  height: 80%;
+}
+.project-banner {
+  background-image: url(Images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 30%;
+}
+.to-achieve-section h1 {
+  text-align: center;
+  font-weight: 700;
+}
+#coral {
+  color: coral;
+}
+.productivity-section {
+  display: flex;
+  margin-bottom: 200px;
+  margin: 5%;
+  padding-bottom: 5px;
+}
+.productivity-section .transform #img1 {
+  width: 80%;
+  height: 60%;
+}
+.productivity-section .transform {
+  background-color: darkgray;
+  padding-bottom: 60px;
+  padding-right: 5px;
+  padding-left: -5%;
+  padding: 10px;
+  margin: 10px;
+  text-align: initial;
+  border: 2px solid olive;
+  border-radius: 5px;
+}
+.productivity-section .efficiency {
+  background-color: darksalmon;
+  padding-bottom: 60px;
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  border: 2px solid olive;
+  border-radius: 5px;
+}
+
+.productivity-section .efficiency #img2 {
+  width: 80%;
+  height: 60%;
+}
+.productivity-section .growth {
+  background-color: indianred;
+  padding-bottom: 60px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid olive;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.productivity-section .growth #img3 {
+  width: 80%;
+  height: 60%;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 50px;
+}
+footer h1 {
+  font-size: 35px;
+  font-family: "Vujahday Script", cursive;
+}
+#tomato {
+  color: tomato;
+}

@@ -1,0 +1,231 @@
+/* -------------------------------------Start---------------------------------------------------- */
+
+body {
+  background-color: #7180673b;
+}
+
+/* header part start  */
+#header-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#header-text {
+  margin-top: 40px;
+  font-size: xx-large;
+  font-weight: 700;
+  color: #448317;
+}
+
+/* header part end */
+
+/* main  part*/
+#main-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* image section */
+#image-section {
+  width: 55%;
+  margin: 30px 0;
+}
+#image {
+  width: 100%;
+}
+#image-section-thumbnail {
+  display: block;
+  margin: 0 auto;
+  width: 85%;
+  height: 98vh;
+  border-radius: 10px;
+}
+/* calc section */
+#calc-sec {
+  width: 40%;
+  height: 98vh;
+  background-color: #696d6b9f;
+  opacity: 0.9;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+.calc-sec-headings {
+  text-align: center;
+  color: #2a5808;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+.calc-sec-title {
+  font-weight: 700;
+  color: #2a5808;
+  margin-right: 5px;
+  display: flex;
+  justify-content: end;
+  width: 20%;
+}
+.input-field {
+  display: inline-block;
+  margin-left: 5px;
+  height: 30px;
+  width: 30%;
+  background-color: #24550154;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+.calc-sec-alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#calc-saving-parent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#calc-saving-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#calc-saving-child-2 {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* button */
+.btn {
+  display: inline-block;
+
+  padding: 10px 25px;
+  background-color: #1a911aaf;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+  font-size: large;
+  border-radius: 10px;
+}
+
+/* save */
+#save-input {
+  width: 40%;
+  margin-right: 10px;
+}
+
+/* mobile responsivie */
+@media only screen and (max-width: 600px) {
+  #main-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95vw;
+  }
+  #header-text {
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 700;
+    color: #2a5808;
+    max-width: 150px;
+    word-wrap: break-word;
+    text-align: center;
+  }
+  /* image-section */
+  #image-section {
+    width: 100%;
+    margin: 30px 0;
+  }
+  #image {
+    width: 100%;
+  }
+  #image-section-thumbnail {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    border-radius: 5px;
+  }
+  /* calc section */
+  #calc-sec {
+    width: 90%;
+    max-height: 600px;
+    background-color: #aad5769f;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  .calc-sec-headings {
+    text-align: center;
+    color: #2a5808;
+    margin-bottom: 3px;
+    margin-top: 0px;
+    font-size: x-large;
+  }
+  .calc-sec-title {
+    font-weight: 700;
+    color: #2a5808;
+    margin-right: 5px;
+    display: flex;
+    justify-content: end;
+    width: 15%;
+  }
+  .input-field {
+    display: inline-block;
+    margin-left: 5px;
+    height: 30px;
+    width: 20%;
+    background-color: #24550154;
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 2px 5px;
+  }
+  .calc-sec-alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #calc-saving-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #calc-saving-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #calc-saving-child-2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  /* button */
+  .btn {
+    display: inline-block;
+
+    padding: 5px 15px;
+    background-color: #459945af;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+  }
+  /* save */
+  #save-input {
+    width: 70%;
+    margin-right: 5px;
+  }
+}
+
+/*------------------------------------------- End----------------------------------------------- */

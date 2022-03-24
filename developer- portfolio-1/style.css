@@ -1,0 +1,48 @@
+body{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.flexible-container{
+    display: flex;
+    /* align-items: center;
+    align-items: center; */
+}
+#name{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+  margin-left: 7%;
+  margin-top: 5px;
+  margin-bottom: 150px;
+
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+text-decoration: none;
+background-image: linear-gradient(salmon,tomato);
+color: #ffffff;
+padding: 10px 20px;
+border-radius: 3px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width p{
+    color: rgb(73, 72, 72);
+}
